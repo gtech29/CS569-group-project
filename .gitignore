@@ -1,11 +1,9 @@
-# Raw Kaggle downloads
+# Raw Kaggle downloads (DO NOT COMMIT)
 data/raw/
 
-# Big processed files (if any)
-data/processed/*.csv
+# Big cleaned output (optional; don't commit)
+data/processed/steam_reviews_cleaned.csv
 
-# We'll allow only committed samples (we’ll add exceptions below)
-!data/processed/*sample*.csv
-
+# Python cache
 __pycache__/
 *.pyc
