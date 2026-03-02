@@ -1,0 +1,11 @@
+# Raw Kaggle downloads
+data/raw/
+
+# Big processed files (if any)
+data/processed/*.csv
+
+# We'll allow only committed samples (we’ll add exceptions below)
+!data/processed/*sample*.csv
+
+__pycache__/
+*.pyc
