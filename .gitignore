@@ -1,8 +1,9 @@
 # Raw Kaggle downloads (DO NOT COMMIT)
 data/raw/
 
-# Big cleaned output (optional; don't commit)
+# Large processed outputs (DO NOT COMMIT)
 data/processed/steam_reviews_cleaned.csv
+data/processed/steam_merged_dataset.csv
 
 # Python cache
 __pycache__/
