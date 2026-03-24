@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
 
-# 1. Setup the path to find data
+# 1. Setup the path for data
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SAMPLE_PATH = os.path.join(ROOT, "data", "processed", "steam_reviews_sample_10k.csv")
 OUT_DIR = os.path.join(ROOT, "data", "processed")
@@ -25,7 +25,6 @@ def main():
     val_df, test_df = train_test_split(temp_df, test_size=0.5, random_state=42)
 
     # 4. Verify 
-    # print("--- Data Split Complete ---")
     # print(f"Total Original Rows: {len(df)}")
     # print(f"Training Set (80%): {len(train_df)} rows")
     # print(f"Validation Set (10%): {len(val_df)} rows")
