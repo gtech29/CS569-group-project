@@ -8,3 +8,4 @@ data/processed/steam_merged_dataset.csv
 # Python cache
 __pycache__/
 *.pyc
+/venv/
