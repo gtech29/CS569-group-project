@@ -34,7 +34,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("🎮 Game Design Insight Dashboard")
+st.title("Game Design Insight Dashboard")
 
 st.write(
     "A demo UI for turning Steam-style player reviews into actionable game design insights."
